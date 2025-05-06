@@ -163,9 +163,9 @@ section{
       height: 250px;
     }
   }
-  @media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .bg {
       background-attachment: scroll;
     }
-  }
-    
+  } */
+      
