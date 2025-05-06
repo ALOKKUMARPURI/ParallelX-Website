@@ -87,4 +87,85 @@ section{
 .bg3{
     background-image: url(sport-3.jpg);
 }
-
+@media (max-width: 1024px) {
+    h1 {
+      font-size: 4rem;
+      top: 1rem;
+    }
+  
+    .secHeading, .text {
+      padding: 0 5rem;
+    }
+  
+    .secHeading {
+      font-size: 3.5rem;
+    }
+  
+    .text {
+      font-size: 1.2rem;
+    }
+  
+    .desc {
+      font-size: 2.5rem;
+      padding: 0.4rem 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+      top: 1rem;
+    }
+  
+    .secHeading, .text {
+      padding: 0 2rem;
+    }
+  
+    .secHeading {
+      font-size: 2.5rem;
+    }
+  
+    .text {
+      font-size: 1rem;
+    }
+  
+    .desc {
+      font-size: 2rem;
+      padding: 0.3rem 1.5rem;
+    }
+  
+    .bg {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+      top: 0.5rem;
+    }
+  
+    .secHeading {
+      font-size: 2rem;
+    }
+  
+    .text {
+      font-size: 0.9rem;
+      padding: 0 1rem;
+    }
+  
+    .desc {
+      font-size: 1.5rem;
+      padding: 0.2rem 1rem;
+    }
+  
+    .bg {
+      height: 250px;
+    }
+  }
+  @media (max-width: 768px) {
+    .bg {
+      background-attachment: scroll;
+    }
+  }
+    
